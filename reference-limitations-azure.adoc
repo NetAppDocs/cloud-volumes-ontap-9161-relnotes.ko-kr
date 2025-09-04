@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations-azure.html 
+keywords: limitations, ha, azure, pay-as-you-go, paygo, cloud solution provider, vm, flash cache 
+summary: 이러한 알려진 제한 사항은 Microsoft Azure의 Cloud Volumes ONTAP 에만 적용됩니다. 
+---
+= Azure의 Cloud Volumes ONTAP 에 대한 알려진 제한 사항
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+다음은 Microsoft Azure의 Cloud Volumes ONTAP 에만 적용되는 알려진 제한 사항입니다.  또한 검토해 보세요link:reference-limitations.html["모든 클라우드 공급자의 Cloud Volumes ONTAP 에 대한 제한 사항"] .
+
+
+
+== Azure VM 확장 사용 시 제한 사항
+
+Cloud Volumes ONTAP BlueXP 관리 작업에 영향을 미치기 때문에 Azure 가상 머신(VM) 확장을 지원하지 않습니다. 배포하는 동안 BlueXP VM에 어떤 확장 프로그램도 설치되지 않도록 방지합니다. 기존 Cloud Volumes ONTAP VM에 확장 기능이 이미 설치되어 있는 경우 Microsoft Azure 지원팀에 문의하여 제거하세요. 지침은 지식 기반(KB) 문서를 참조하세요. https://kb.netapp.com/Cloud/Cloud_Volumes_ONTAP/Can_Azure_VM_Management_Extensions_be_installed_into_Cloud_Volume_ONTAP["Azure VM 관리 확장을 Cloud Volume ONTAP 에 설치할 수 있나요?"^]
+
+2025년 7월 14일부터 NetApp Cloud Volumes ONTAP VM에서 VM 확장이 감지되면 이메일을 보내고 BlueXP 에서 알려줍니다.
+
+
+
+== 플래시 캐시 제한 사항
+
+Cloud Volumes ONTAP 일부 VM 유형에서 로컬 NVMe 스토리지를 _Flash Cache_로 사용합니다.  다음 제한 사항을 참고하세요.
+
+* 재부팅 후 캐시 재가동은 지원되지 않습니다.
+
+
+
+
+== 고가용성 배포의 제한 사항
+
+일부 지역에서는 고가용성(HA) 쌍이 지원되지 않습니다.
+
+https://bluexp.netapp.com/cloud-volumes-global-regions["지원되는 Azure 지역 목록 보기"^] .
+
+
+
+== 단일 가용성 영역에서 HA 배포의 제한 사항
+
+Cloud Volumes ONTAP 9.15.1부터 Azure의 단일 가용성 영역(AZ)에 HA 모드로 가상 머신(VM) 인스턴스를 배포할 수 있습니다.  이 기능을 지원하는 기준에 대한 정보는 다음을 참조하세요. https://docs.netapp.com/us-en/cloud-volumes-ontap-9151-relnotes/reference-new.html#deploy-ha-pairs-in-single-availability-zones-on-azure["Azure의 단일 가용성 영역에 HA 쌍 배포"^] .
+
+Cloud Volumes ONTAP 버전이 9.15.1 이전이거나 이러한 조건 중 하나라도 충족되지 않으면 가용성 세트를 활용하는 이전 배포 모델이 적용됩니다.  이는 HA 구성에만 적용됩니다.

@@ -1,0 +1,30 @@
+= 
+:allow-uri-read: 
+
+
+[role="lead"]
+Cloud Volumes ONTAP 에는 여러 가지 라이선싱 옵션이 제공됩니다.  각 옵션을 통해 귀하의 필요에 맞는 소비 모델을 선택할 수 있습니다.
+
+신규 고객에게는 다음과 같은 라이선스 옵션이 제공됩니다.
+
+용량 기반 라이선싱 패키지:: 용량 기반 라이선싱을 사용하면 TiB 용량당 Cloud Volumes ONTAP 비용을 지불할 수 있습니다. 라이선스는 NetApp 계정과 연결되며, 라이선스를 통해 충분한 용량을 사용할 수 있는 한 라이선스에 따라 여러 시스템에 요금을 청구할 수 있습니다.
++
+--
+용량 기반 라이선싱은 _패키지_ 형태로 제공됩니다.  Cloud Volumes ONTAP 시스템을 배포하면 비즈니스 요구 사항에 따라 여러 가지 라이선스 패키지 중에서 선택할 수 있습니다.
+
+--
+
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#packages["패키지"^] https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing-charging.html["용량 기반 라이선스에 대한 자세한 내용"^]
+
+Keystone 플렉스 구독:: 선불 CapEx 또는 임대보다 OpEx 소비 모델을 선호하는 고객을 위해 원활한 하이브리드 클라우드 환경을 제공하는, 사용량에 따라 비용을 지불하는 구독 기반 서비스입니다.
++
+--
+요금은 Keystone Flex 구독에서 하나 이상의 Cloud Volumes ONTAP HA 쌍에 대해 약속한 용량 크기에 따라 부과됩니다.
+
+--
+
+
+이미 라이선스를 구매했거나 활성 마켓플레이스 구독이 있는 기존 고객은 이전의 노드별 라이선스 모델을 계속 사용할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["이러한 라이선싱 옵션에 대해 자세히 알아보세요"^]

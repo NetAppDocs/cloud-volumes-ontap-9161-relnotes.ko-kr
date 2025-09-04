@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: reference-provider-integrations.html 
+keywords: maintenance event, azure maintenance event, cloud provider, issues, support, SMB CA in CVO 
+summary: 이 페이지에서는 NetApp 클라우드 공급업체와 협력하여 발생할 수 있는 문제를 해결하는 방법을 설명합니다. 
+---
+= Cloud Volumes ONTAP 위한 클라우드 공급자와의 협업
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 클라우드 공급업체와 협력하여 잠재적인 문제를 해결하는 방법을 알아보세요.
+
+
+
+== 협력 지원 모범 사례
+
+NetApp 라이선스 사용자에게 지원을 제공하기 위해 최선을 다하고 있으며, 라이선스 사용자가 Cloud Volumes ONTAP 에 대한 기술 지원 문제를 보고할 경우 이를 해결하기 위해 상업적으로 합리적인 노력을 기울일 것입니다.  NetApp 과 해당 클라우드 공급업체는 서로의 라이선스 소프트웨어나 인프라에 대한 직접적인 지원 의무가 없습니다.
+
+NetApp 해당 클라우드 공급업체 서비스로 인해 발생할 수 있는 고객 기술 문제에 대해 해당 클라우드 공급업체와 연결하기 위한 도구를 구현했습니다.  그러나 원활한 지원 흐름을 유지하는 가장 좋은 방법은 고객이 (i) NetApp NetApp 해당 클라우드 공급업체 모두와 공동 에스컬레이션 회의를 조정하는 것입니다.
+
+
+
+== Azure 유지 관리 이벤트
+
+Microsoft에서는 Cloud Volumes ONTAP VM에 영향을 줄 수 있는 Azure 가상 머신(VM) 인프라의 유지 관리 이벤트를 예약하고 프로그래밍 방식으로 발표합니다.  이러한 이벤트는 유지 관리 창 15분 전에 발표됩니다.
+
+Cloud Volumes ONTAP 고가용성(HA) 쌍에 대한 유지 관리 이벤트의 특수 처리가 지원됩니다.  애플리케이션 상태를 유지하기 위해 안정성을 우선시하는 예방적 인수를 수행합니다. 15초 이상 연결이 끊어지면 장애 조치 기능이 비활성화됩니다.
+
+유지 관리 기간이 발표되면 대상 노드의 파트너 노드가 인수를 수행합니다.  유지관리가 완료되면 환불이 시작됩니다.  회복 후 HA 쌍은 건강한 상태로 돌아갈 것으로 예상됩니다.  이런 일이 발생하지 않으면 NetApp 지원팀에 문의하여 도움을 받으세요.  유지 관리 이벤트는 한 번에 HA 쌍의 VM 중 하나를 대상으로 하며, 일반적으로 두 노드 모두 비교적 짧은 기간 내에 대상으로 지정됩니다.
+
+Cloud Volumes ONTAP 비연속 사용 가능 CIFS 공유를 사용하는 CIFS/SMB 클라이언트는 세션 인계가 발생할 때와 세션에서 사용 중인 집계가 집계의 홈 노드로 반환될 때 세션 손실을 경험하게 됩니다. 이는 CIFS/SMB 프로토콜 자체의 제한 사항입니다. 승인된 타사 제품을 사용하면 인계 및 반환으로 인한 문제를 방지할 수 있습니다. 추가 지원이 필요하면 NetApp 지원팀에 문의하십시오.
+
+
+NOTE: https://kb.netapp.com/on-prem/ontap/da/NAS/NAS-KBs/What_are_SMB_Continuous_Availability_CA_Shares["지속적으로 이용 가능한 SMB 주식"^] 중단 없는 작업은 Cloud Volumes ONTAP 에서 지원되지 않습니다.
