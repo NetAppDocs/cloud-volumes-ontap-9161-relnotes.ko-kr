@@ -20,6 +20,22 @@ BlueXP 의 최신 버전에서는 추가 기능과 향상된 기능도 도입되
 
 
 
+== 9.16.1 P7(2025년 10월 9일)
+
+이제 Azure 및 Google Cloud에서 Cloud Volumes ONTAP 에 9.16.1 P7 패치를 배포하고 업그레이드할 수 있습니다. 하지만 이 버전은 AWS에서는 배포 및 업그레이드할 수 없습니다. NetApp Console 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지를 표시합니다.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.16.1P7["P7 패치에서 수정된 버그 목록을 확인하세요"^] (NetApp 지원 사이트에 로그인이 필요합니다).
+
+
+
+== 9.16.1 P6(2025년 10월 9일)
+
+이제 Azure 및 Google Cloud에서 Cloud Volumes ONTAP 에 9.16.1 P6 패치를 배포하고 업그레이드할 수 있습니다. 하지만 이 버전은 AWS에서는 배포 및 업그레이드할 수 없습니다. NetApp Console 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지를 표시합니다.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.16.1P6["P6 패치에서 수정된 버그 목록을 확인하세요"^] (NetApp 지원 사이트에 로그인이 필요합니다).
+
+
+
 == 9.16.1 P5(2025년 7월 28일)
 
 이제 Azure 및 Google Cloud에서 Cloud Volumes ONTAP 에 9.16.1 P5 패치를 배포하고 업그레이드할 수 있습니다. 하지만 이 버전은 AWS에서는 배포 및 업그레이드할 수 없습니다. BlueXP 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지를 표시합니다.
