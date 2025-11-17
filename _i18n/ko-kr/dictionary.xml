@@ -799,15 +799,10 @@
   <block id="008c5c510153b3136387ddcd33bc112c" category="section-title">9.16.1 P1(2025년 4월 17일)</block>
   <block id="a9380d77cd3c45a5f15f09b231323443" category="inline-link-macro">P1 패치에서 수정된 버그 목록을 확인하세요</block>
   <block id="664e6349e84880f6407173721fad810a" category="paragraph"><block ref="e1914bcb543b75972205a0cc76dbb433" category="inline-link-macro-rx"></block> (NetApp 지원 사이트에 로그인이 필요합니다).</block>
-  <block id="2bb6251babdc5f589145b9c5611ca36d" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 일반 공급 릴리스를 사용하여 Azure와 Google Cloud에서 배포하고 업그레이드할 수 있습니다. 하지만 이 버전은 AWS에서는 배포 및 업그레이드할 수 없습니다.</block>
   <block id="b5cb41a6703cf18b4cecd5a0817f91cf" category="section-title">업그레이드 노트</block>
   <block id="dfb01a7b38cba8284269f37f00622809" category="paragraph">이 릴리스로 업그레이드하는 방법에 대한 자세한 내용을 알아보려면 이 노트를 읽어보세요.</block>
   <block id="b78b1188c7979365981f7c88049f9366" category="section-title">업그레이드 방법</block>
-  <block id="c716eebe2519c2ba4a2e109b59dd8b13" category="inline-link-macro">BlueXP 에서 알림을 받으면 업그레이드하는 방법을 알아보세요.</block>
-  <block id="a92c2d98e174fb58a9af451a8c3413f9" category="paragraph"><block ref="8271d50d033781f1596acf863334de58" category="inline-link-macro-rx"></block> .</block>
   <block id="c4d6a904ef528003bf03bc2e65cffd26" category="section-title">지원되는 업그레이드 경로</block>
-  <block id="25e5ddb54eebfa8e5f1383c46695e645" category="paragraph">Azure 및 Google Cloud에서 9.15.1 릴리스에서 Cloud Volumes ONTAP 9.16.1 GA로 업그레이드할 수 있습니다. BlueXP 적격 Cloud Volumes ONTAP 시스템을 이 릴리스로 업그레이드하라는 메시지를 표시합니다.</block>
-  <block id="0966109eb7f93cf95b69fc9bfb21fb7f" category="admonition">AWS의 경우 이 업그레이드에 대한 메시지가 표시되지 않습니다. AWS에서는 Cloud Volumes ONTAP 9.16.1 GA로의 업그레이드가 지원되지 않습니다.</block>
   <block id="75026846c1403e202a52bdb027762fbb" category="section-title">중단 시간</block>
   <block id="9f0f02784feedfa2549a9e3a51cfa315" category="list-text">단일 노드 시스템을 업그레이드하면 최대 25분 동안 시스템이 오프라인 상태가 되며, 이때 I/O가 중단됩니다.</block>
   <block id="2dc71138ad7976e187566f7ce79883cc" category="list-text">HA 쌍을 업그레이드하는 것은 중단 없이 이루어지며 I/O도 중단되지 않습니다.  이러한 중단 없는 업그레이드 프로세스 동안 각 노드는 클라이언트에 I/O를 계속 제공하기 위해 동시에 업그레이드됩니다.</block>
@@ -856,17 +851,22 @@
   <block id="af75259c5a2eff34005b24d9dce1ac52" category="paragraph"><block ref="0147ce621a7d7c8941a69843e83fe4b1" category="inline-link-macro-rx"></block> (NetApp 지원 사이트에 로그인이 필요합니다).</block>
   <block id="2edd6fc1fef5dd32d257e3e2cc619d02" category="section-title">9.16.1 P4(2025년 7월 8일)</block>
   <block id="a25096dc77a4ccda62f4f74b9b6af779" category="section-title">9.16.1 GA(2025년 3월 6일)</block>
-  <block id="189d886c9544b7a83965c41721db1728" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 P5 패치를 Azure와 Google Cloud에서 업그레이드할 수 있습니다.  하지만 이 버전은 AWS에서 업그레이드할 수 없습니다. BlueXP 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지를 표시합니다.</block>
-  <block id="962caffd9246a2aab713373646816df3" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 P4 패치를 Azure와 Google Cloud에서 업그레이드할 수 있습니다.  하지만 이 버전은 AWS에서 업그레이드할 수 없습니다. BlueXP 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지를 표시합니다.</block>
-  <block id="565921380c4d63d3501c50893bfeb5ba" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 P3 패치를 Azure와 Google Cloud에서 업그레이드할 수 있습니다.  하지만 이 버전은 AWS에서 업그레이드할 수 없습니다. BlueXP 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지를 표시합니다.</block>
-  <block id="70249f1b3f974d77b07624fb6202aa10" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 P2 패치를 Azure와 Google Cloud에서 업그레이드할 수 있습니다.  하지만 이 버전은 AWS에서 업그레이드할 수 없습니다. BlueXP 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지를 표시합니다.</block>
-  <block id="4e86ac893c0dda1685d140ff4d3d599d" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 P1 패치를 Azure와 Google Cloud에서 업그레이드할 수 있습니다.  하지만 이 버전은 AWS에서 업그레이드할 수 없습니다. BlueXP 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지를 표시합니다.</block>
-  <block id="bc2d1afe4b7b88784be36363245bd652" category="inline-link">Cloud Volumes ONTAP 릴리스 노트</block>
-  <block id="94a7e8772ecb896c3e13f41584c76ab7" category="paragraph">NetApp Console 의 최신 버전에서는 추가 기능과 향상된 기능도 도입되었습니다. 를 참조하십시오<block ref="f96aab045327bc06764221211f20005a" category="inline-link-rx"></block> 자세한 내용은.</block>
   <block id="df7edaf21eb32292a6090878702d3333" category="section-title">9.16.1 P8(2025년 10월 16일)</block>
-  <block id="9e8c54e0d419cb43a5c3881b8f608415" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 P8 패치를 Azure와 Google Cloud에서 업그레이드할 수 있습니다. 하지만 이 버전은 AWS에서 업그레이드할 수 없습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
   <block id="a5757ef07045a814bda504c5b48177c6" category="inline-link-macro">P8 패치에서 수정된 버그 목록을 확인하세요</block>
   <block id="21ebc711048cdcafad08d32fe2c74075" category="paragraph"><block ref="b02be3e425726b2f390433a75f9e0be6" category="inline-link-macro-rx"></block>(NetApp 지원 사이트에 로그인이 필요합니다).</block>
-  <block id="15e41bc02bb88f6df8c3d65e745efc83" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 P7 패치를 Azure와 Google Cloud에서 업그레이드할 수 있습니다. 하지만 이 버전은 AWS에서 업그레이드할 수 없습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
-  <block id="67c8d40bd121899db2d517ac7199805e" category="paragraph">이제 Cloud Volumes ONTAP 9.16.1 P6 패치를 Azure와 Google Cloud에서 업그레이드할 수 있습니다. 하지만 이 버전은 AWS에서 업그레이드할 수 없습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
+  <block id="87ee5352290a3614ab7c6bcf82ae2d01" category="paragraph">NetApp Console 의 최신 버전에는 새로운 Cloud Volumes ONTAP 기능도 도입되었습니다. 자세한 내용은 새로운 내용을 참조하세요.<block ref="bad5c25162c34c1c3e14f8f49fedc1c6" category="inline-link-rx"></block> 콘솔에서 관리됩니다.</block>
+  <block id="8016dbd7c34f3d9290f8ba4609e172cc" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P8 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="b39f8078216b004eb1d1aca246ccd4bd" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P7 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="7a3d074618a898492a136761125795c3" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P6 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="814c940dcc0e881435255921084606e7" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P5 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="859203a6c8785491498bed4697baf6a7" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P4 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="826d24fd1504c0974dddd5e3146f9cd5" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P3 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="fa3a78fcc6396572a0162cd0ae649851" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P2 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="51aa5c3687bdda02664f4e3c7cc205a0" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P1 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="57e8c983723739c802ac4a73bc0a8072" category="paragraph">Cloud Volumes ONTAP 9.16.1 일반 공급 릴리스는 이제 AWS, Azure 및 Google Cloud에서 배포 및 업그레이드할 수 있습니다.</block>
+  <block id="57a0ba977b3ce94f8d770dc7f07f0621" category="paragraph">Cloud Volumes ONTAP 업그레이드는 콘솔에서 완료해야 합니다. System Manager나 CLI를 사용하여 Cloud Volumes ONTAP 업그레이드해서는 안 됩니다. 그렇게 하면 시스템 안정성에 영향을 미칠 수 있습니다.</block>
+  <block id="1d3b6bcaa662fb815c64aec0bffd0aa5" category="inline-link-macro">콘솔에서 알림을 받을 때 업그레이드하는 방법을 알아보세요.</block>
+  <block id="c1c95a79ba017a924aa27e6d62ce3148" category="paragraph"><block ref="96dd1055c54322c16d3691cb1f44b801" category="inline-link-macro-rx"></block>.</block>
+  <block id="31df6bd033eb0ed1992ab01c69319f02" category="paragraph">AWS, Azure, Google Cloud에서 9.15.1 릴리스에서 Cloud Volumes ONTAP 9.16.1로 업그레이드할 수 있습니다.  콘솔에서는 적격 Cloud Volumes ONTAP 시스템을 이 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
 </blocks>
