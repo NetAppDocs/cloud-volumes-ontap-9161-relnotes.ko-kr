@@ -877,4 +877,8 @@
   <block id="d951df9678da0683e70249f4aeb5ea9e" category="paragraph">이제 모든 클라우드 공급업체에서 Cloud Volumes ONTAP 9.16.1 P10 패치를 업그레이드할 수 있습니다. 콘솔에서는 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
   <block id="7c8ff86b41b72d8fa99855f2e2c45139" category="inline-link-macro">P10 패치에서 수정된 버그 목록을 확인하세요</block>
   <block id="60b93f7bd7cd61809b1080f294f03f00" category="paragraph"><block ref="02eca14e8eca47ec8802c1c6504665c3" category="inline-link-macro-rx"></block>(NetApp 지원 사이트에 로그인이 필요합니다).</block>
+  <block id="557c60a60be60d6ab5869a248f899a5b" category="section-title">9.16.1 P11 (2026년 2월 17일)</block>
+  <block id="c8fc4e02c37e3ba115f5b5151211d0a4" category="paragraph">Cloud Volumes ONTAP 9.16.1 P11 패치가 모든 클라우드 공급자를 위해 업그레이드 가능하게 되었습니다. Console에서 기존 시스템을 이 패치 릴리스로 업그레이드하라는 메시지가 표시됩니다.</block>
+  <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link-macro">P11 패치에서 수정된 버그 목록을 확인하십시오</block>
+  <block id="f78f637b367235893656515e0320b18e" category="paragraph"><block ref="67ad79ff8e6ea95deb4c519af6266a5d" category="inline-link-macro-rx"></block>(NetApp Support Site 로그인 필요).</block>
 </blocks>
